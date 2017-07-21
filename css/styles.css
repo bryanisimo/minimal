@@ -1,3 +1,16 @@
-#container{
-    width: 960px;
+.grid{
+  font-size: 14px;
+}
+.image-wrapper{
+  background-color: #31F9E1;
+  height: 10em;
+  display: flex;
+  justify-content: center;
+  background-image: url(images/playa-9.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.image-wrapper p{
+  align-self: flex-end;
+  margin: 0.5em;
 }
